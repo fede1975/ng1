@@ -69,7 +69,7 @@
         "serve": {
            "options": {
     "port": 10000,
-    "host": "0.0.0.0"
+    "host": "https://ng1.onrender.com"
   },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
