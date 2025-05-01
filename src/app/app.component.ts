@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-//import { Observable } from 'rxjs';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -16,13 +15,6 @@ data:any;
 data2:any;
 
   constructor(private http: HttpClient) {}
-
-
-
-
-/*private apiUrl ="https://api.openweathermap.org/data/2.5/weather?lat=27.9506&lon=-82.4572&appid=71c406cd0696048af1069afda7277927";
-*/
-
 
 
 
